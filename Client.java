@@ -12,11 +12,12 @@ public class Client {
         
         int nr1 ,nr2 , tempValue ;
         
-        //scaner pt input de la user
+        //scaner for user input
         Scanner sc = new Scanner(System.in);
         
-        //socketul
+        //socket
         Socket clientS = new Socket("localhost", 1000);
+       
         //output server
         Scanner scan= new Scanner(clientS.getInputStream());
         System.out.println("Enter 2 numbers");
