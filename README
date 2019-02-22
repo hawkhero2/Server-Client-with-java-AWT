@@ -1,0 +1,2 @@
+/*Creating a java awt UI in which the user inputs 2 numbers and after that the Client class sends it over to the Server class,
+Server class will return the sum of those numbers*/
