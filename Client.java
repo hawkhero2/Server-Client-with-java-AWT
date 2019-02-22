@@ -11,7 +11,7 @@ public class Client {
     public static void main(String[]args) throws IOException{
         
         int nr1 ,nr2 , tempValue ;
-        
+        //shoul I make a instance of JFrame here?
         //scaner for user input
         Scanner sc = new Scanner(System.in);
         
